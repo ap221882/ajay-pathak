@@ -1,8 +1,11 @@
+import { ModeToggle } from '@/components/ui/toggleTheme';
+
 export default function Home() {
   return (
     <main >
       <nav>
         {/* <h4 className="font-light">Ajay Pathak</h4> */}
+        <ModeToggle/>
       </nav>
       <div className="py-36 px-40">
       <div>
