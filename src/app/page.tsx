@@ -1,11 +1,12 @@
-import { ModeToggle } from '@/components/ui/toggleTheme';
+import { CustomNavigationMenu } from '@/components/customComponents/navBar';
+import { ModeToggle } from '@/components/customComponents/toggleTheme';
 
 export default function Home() {
   return (
     <main >
       <nav>
-        {/* <h4 className="font-light">Ajay Pathak</h4> */}
         <ModeToggle/>
+        <CustomNavigationMenu/>
       </nav>
       <div className="py-36 px-40">
       <div>
