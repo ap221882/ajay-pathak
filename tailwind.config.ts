@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss"
+import type { Config } from 'tailwindcss';
 
 const config = {
   darkMode: ["class"],
@@ -10,6 +10,10 @@ const config = {
 	],
   prefix: "",
   theme: {
+    fontFamily:{
+      sans:['"Open Sans", sans-serif'],
+      domine:["Domine"]
+    },
     container: {
       center: true,
       padding: "2rem",
