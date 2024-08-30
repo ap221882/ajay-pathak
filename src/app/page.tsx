@@ -1,19 +1,11 @@
 import Image from 'next/image';
 
-import { CustomNavigationMenu } from '@/components/customComponents/navBar';
-import { ModeToggle } from '@/components/customComponents/toggleTheme';
 import { Button } from '@/components/ui/button';
-import { Separator } from '@/components/ui/separator';
 import { ExternalLinkIcon } from '@radix-ui/react-icons';
 
 export default function Home() {
   return (
     <main >
-      <nav className='flex flex-row justify-between p-8 pb-4'>
-        <CustomNavigationMenu/>
-        <ModeToggle/>
-      </nav>
-      <Separator />
       <div className="py-36 px-40 flex justify-between items-center">
         <div>
         <h1 className='scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl'>{"I'm Ajay!"}</h1>
