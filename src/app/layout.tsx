@@ -4,7 +4,6 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
 import { CustomNavigationMenu } from '@/components/customComponents/navBar';
-import { ModeToggle } from '@/components/customComponents/toggleTheme';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Separator } from '@/components/ui/separator';
 
@@ -22,17 +21,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} max-h-screen`}>
+      <body className={`${inter.className} max-h-screen bg-[#e8e8e3]`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
           enableSystem
           disableTransitionOnChange
         >
-          <nav className='flex flex-row justify-between p-2'>
+        <nav className='flex flex-row justify-center p-2'>
         <CustomNavigationMenu/>
-        <ModeToggle/>
-          </nav>
+        {/* <ModeToggle/> */}
+        </nav>
           <Separator />
           {children}
           <footer className="py-6 md:px-8 md:py-0">

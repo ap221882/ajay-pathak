@@ -12,15 +12,16 @@ import {
   navigationMenuTriggerStyle,
 } from '@/components/ui/navigation-menu';
 import { cn } from '@/lib/utils';
+import { HomeIcon } from '@radix-ui/react-icons';
 
 export function CustomNavigationMenu() {
   return (
-    <NavigationMenu>
-      <NavigationMenuList>
+    <NavigationMenu className='max-w-3xl bg-[#d5d6d0] rounded-full mt-4'>
+      <NavigationMenuList className='flex gap-16 py-2'>
         <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Home
+             <HomeIcon/>
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className='grid grid-cols-2 pt-4'>
       <div></div>
-      <div className="scroll-m-20 border-b pb-2 text-2xl tracking-tight first:mt-0 font-sans text-gray-800/75 leading-8 overflow-y-auto">
+      <div className="scroll-m-20 border-b pb-2 text-2xl tracking-tight first:mt-0 font-sans leading-8 overflow-y-auto">
         <p>Welcome to the world of React.js!</p>
         <p>{`I write HTML, draw CSS, and talk JavaScript. I am currently a web developer in general and a front-end developer in particular. I LOVE BROWSERS. In the world of frameworks, I'm a ReactJS Developer and a NextJS developer. I am proficient in building production-grade web applications following Agile and Test-Driven Development.`}
         </p>
