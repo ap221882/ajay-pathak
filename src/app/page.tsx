@@ -8,8 +8,11 @@ export default function Home() {
     <main >
       <div className="py-36 px-40 flex justify-between items-center">
         <div>
-        <h1 className='scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl'>{"I'm Ajay!"}</h1>
-        <h3 className="py-4 text-2xl">A frontend geek and web/mobile developer.</h3>
+        <div className='scroll-m-20 text-9xl cormorant-garamond-regular tracking-wide text-gray-900/80 font-thin'>
+          <h1>Ajay</h1>
+          <h1>Pathak</h1>
+        </div>
+        <h3 className="py-4 text-2xl cormorant-garamond-light text-gray-900/75">A frontend geek and web/mobile developer.</h3>
         <div className="flex gap-4 mt-10">
         <Button asChild variant="default" className='rounded-full p-8 font-light text-lg'>
         <a href="https://www.linkedin.com/in/ajay-pathak-webdeveloper/" target='_blank' nonce='true'>
